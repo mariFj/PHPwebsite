@@ -15,10 +15,10 @@ if(isset($_POST['submitted']))
 <head>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
     <title>Contact us</title>
-    <link rel="STYLESHEET" type="text/css" href="style/fg_membersite.css" />
-    <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
-    <link rel="STYLESHEET" type="text/css" href="style/pwdwidget.css" />
-    <script src="scripts/pwdwidget.js" type="text/javascript"></script>      
+    <link rel="STYLESHEET" type="text/css" href="../style/fg_membersite.css" />
+    <script type='text/javascript' src='../scripts/gen_validatorv31.js'></script>
+    <link rel="STYLESHEET" type="text/css" href="../style/pwdwidget.css" />
+    <script src="../scripts/pwdwidget.js" type="text/javascript"></script>      
 </head>
 <body>
 
@@ -49,7 +49,7 @@ if(isset($_POST['submitted']))
     <input type='text' name='username' id='username' value='<?php echo $fgmembersite->SafeDisplay('username') ?>' maxlength="50" /><br/>
     <span id='register_username_errorloc' class='error'></span>
 </div>
-<div class='container' style='height:80px;'>
+<div class='container' style='height:-3px;'>
     <label for='password' >Password*:</label><br/>
     <div class='pwdwidgetdiv' id='thepwddiv' ></div>
     <noscript>
