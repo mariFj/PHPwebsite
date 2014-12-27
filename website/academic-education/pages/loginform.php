@@ -34,7 +34,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <li><a href="#">Home</a></li>
         <li><a href="#">Contact Us</a></li>
         <li><a href="#">A - Z Index</a></li>
-        <li><a href="./loginform.php">Student Login</a></li>
+        <li><a href="./loginform.php">Login</a></li>
         <li><a href="registerform.php">Register</a></li>
       </ul>
     </nav>
