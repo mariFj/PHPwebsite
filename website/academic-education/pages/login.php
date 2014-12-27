@@ -18,14 +18,14 @@ $connection = mysqli_connect("localhost", "root", "");
 $username = mysqli_real_escape_string($connection,$username);
 $password = mysqli_real_escape_string($connection, $password);
 // Selecting Database
-$db = mysqli_select_db($connection,"limba_db");
+$db = mysqli_select_db($connection,"phpwebsite");
 // SQL query to fetch information of registerd users and finds user match.
-$query = mysqli_query($connection, "select * from register where Password='$password' AND Email='$username'");
+$query = mysqli_query($connection, "select * from register where Password='$password'");
 $rows = mysqli_num_rows($query);
 if ($rows >=1) {
 //$_SESSION['login_user']=$username; // Initializing Session
 //header("location: profile.php"); // Redirecting To Other Page
-echo "the database is connected";
+// echo "the database is connected";
 } else {
 $error = "Username or Password is invalid";
 }

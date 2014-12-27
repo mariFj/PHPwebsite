@@ -8,7 +8,7 @@ Licence URI: http://www.os-templates.com/template-terms
 -->
 <html>
 <head>
-<title>Academic Education V2</title>
+<title>Limba</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
@@ -25,7 +25,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <li><a href="#">Home</a></li>
         <li><a href="#">Contact Us</a></li>
         <li><a href="#">A - Z Index</a></li>
-        <li><a href="./pages/loginform.php">Student Login</a></li>
+        <li><a href="../pages/loginform.php">Student Login</a></li>
         <li><a href="registerform.php">Register</a></li>
       </ul>
     </nav>
@@ -40,7 +40,7 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
       <h1><a href="index.html">Limba</a></h1>
-      <p>Free Website Template</p>
+      
     </div>
     <div class="fl_right">
       <form class="clear" method="post" action="#">

@@ -268,13 +268,13 @@ td{border-width:0 1px;}
 
 /* Colours
 -------------------------------red background-color:#06213F-------------------------------------------------------------------------------- */
-body{color:#F9F9F9; background-color:#FF0000;}
+body{color:#F9F9F9; background-color:#00CC99;}
 
 a{color:#55ABDA;}
 
 hr, .borderedbox{border-color:#D7D7D7;}
 
-label span{color:#FF0000; background-color:inherit;}
+label span{color:#202020; background-color:inherit;}
 
 .rounded{color:inherit; background-color:#F9F9F9;}
 
@@ -282,7 +282,7 @@ label span{color:#FF0000; background-color:inherit;}
 /* Rows */
 .row0, .row0 a{color:#F9F9F9; background-color:#06213F;}
 .row1{color:#979797; background-color:#06213F;}
-.row1 a{color:#F9F9F9; background-color:inherit;}
+.row1 a{color:#F9F9F9; background-color:#06213F;}
 .row2, .row2 a{color:#06213F; background-color:inherit;}
 .row3{color:#979797; background-color:inherit;}
 .row4{color:#979797; background-color:inherit;}
@@ -427,4 +427,29 @@ table a, #comments a{background-color:inherit;}
 @media screen and (max-width:650px) {
 	.scrollable{display:block; width:100%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;}
 	.scrollable table{margin:0; padding:0; white-space:nowrap;}
+}
+/* login
+------------------------
+
+#login {
+width:300px;
+float:left;
+border-radius:10px;
+font-family:raleway;
+border:2px solid #ccc;
+padding:10px 40px 25px;
+margin-top:70px;
+color: black
+}
+
+#name
+input[type=text],input[type=password] {
+width:99.5%;
+padding:10px;
+margin-top:8px;
+border:1px solid #fff;
+padding-left:5px;
+font-size:16px;
+font-family:raleway;
+color: black
 }

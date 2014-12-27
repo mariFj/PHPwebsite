@@ -646,6 +646,7 @@ class FGMembersite
         if(!$mailer->Send())
         {
             $this->HandleError("Failed sending registration confirmation email.");
+            
             return false;
         }
         return true;
