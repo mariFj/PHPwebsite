@@ -82,8 +82,8 @@ border-radius: 10px;
 
 #fg_membersite .container
 {
-   margin-top:-25px;
-   margin-bottom: -25px;
+   margin-top:-30px;
+   margin-bottom: -30px;
 }
 
 #fg_membersite .error
