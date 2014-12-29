@@ -22,11 +22,12 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">A - Z Index</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="contactform.php">Contact Us</a></li>
+        
         <li><a href="../pages/loginform.php">Login</a></li>
         <li><a href="registerform.php">Register</a></li>
+        <li><a href="#">About Us</a></li>
       </ul>
     </nav>
     <!-- ################################################################################################ --> 
