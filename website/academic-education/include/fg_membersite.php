@@ -33,13 +33,16 @@ class FGMembersite
     var $connection;
     var $rand_key;
     
+    
     var $error_message;
+    
     
     //-----Initialization -------
     function FGMembersite()
     {
         $this->sitename = 'YourWebsiteName.com';
         $this->rand_key = '0iQx5oBk66oVZep';
+        
     }
     
     function InitDB($host,$uname,$pwd,$database,$tablename)
@@ -49,6 +52,8 @@ class FGMembersite
         $this->pwd  = $pwd;
         $this->database  = $database;
         $this->tablename = $tablename;
+        
+      
         
     }
     function SetAdminEmail($email)
@@ -791,6 +796,7 @@ class FGMembersite
     
         $confirmcode = $this->MakeConfirmationMd5($formvars['email']);
         
+        
         $formvars['confirmcode'] = $confirmcode;
         
         $insert_query = 'insert into '.$this->tablename.'(
@@ -806,7 +812,7 @@ class FGMembersite
                 "' . $this->SanitizeForSQL($formvars['email']) . '",
                 "' . $this->SanitizeForSQL($formvars['username']) . '",
                 "' . md5($formvars['password']) . '",
-                "' . $confirmcode . '"
+                "' . $confirmcode . '"                		
                 )';      
         if(!mysqli_query($this->connection,$insert_query))
         {
